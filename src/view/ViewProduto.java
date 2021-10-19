@@ -51,6 +51,8 @@ public class ViewProduto extends javax.swing.JFrame {
 
         jLabel3.setText("Valor");
 
+        jButton1.setBackground(new java.awt.Color(1, 221, 105));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/salvar.png"))); // NOI18N
         jButton1.setText("Salvar");
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -85,10 +87,13 @@ public class ViewProduto extends javax.swing.JFrame {
             jTable1.getColumnModel().getColumn(3).setMaxWidth(100);
         }
 
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/limpar.png"))); // NOI18N
         jButton2.setText("Limpar");
 
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/excluir.png"))); // NOI18N
         jButton3.setText("Excluir");
 
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/editar.png"))); // NOI18N
         jButton4.setText("Alterar");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);

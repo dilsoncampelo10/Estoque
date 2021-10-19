@@ -63,6 +63,8 @@ public class ViewEstoque extends javax.swing.JFrame {
 
         jLabel4.setText("Valor");
 
+        jButton1.setBackground(new java.awt.Color(1, 221, 105));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/salvar.png"))); // NOI18N
         jButton1.setText("Executar");
 
         jLabel5.setText("Movimentações do estoque");
@@ -73,6 +75,7 @@ public class ViewEstoque extends javax.swing.JFrame {
 
         jComboBox3.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
 
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/pesquisa.png"))); // NOI18N
         jButton2.setText("Pesquisar");
 
         jTable1.setModel(new javax.swing.table.DefaultTableModel(
@@ -88,6 +91,7 @@ public class ViewEstoque extends javax.swing.JFrame {
         ));
         jScrollPane1.setViewportView(jTable1);
 
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/pdf.png"))); // NOI18N
         jButton3.setText("Gerar relatório");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -137,7 +141,7 @@ public class ViewEstoque extends javax.swing.JFrame {
                     .addComponent(jScrollPane1)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addGap(0, 0, Short.MAX_VALUE)
-                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(

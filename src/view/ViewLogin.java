@@ -42,7 +42,7 @@ public class ViewLogin extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(254, 254, 254));
 
         tituloEstoque.setFont(new java.awt.Font("Ubuntu", 1, 48)); // NOI18N
-        tituloEstoque.setForeground(new java.awt.Color(0, 155, 255));
+        tituloEstoque.setForeground(new java.awt.Color(2, 53, 85));
         tituloEstoque.setText("Controle de Estoque");
 
         jLabel2.setFont(new java.awt.Font("Ubuntu", 1, 16)); // NOI18N
@@ -51,12 +51,14 @@ public class ViewLogin extends javax.swing.JFrame {
         jLabel3.setFont(new java.awt.Font("Ubuntu", 1, 16)); // NOI18N
         jLabel3.setText("Senha");
 
+        jButton1.setBackground(new java.awt.Color(210, 66, 52));
         jButton1.setFont(new java.awt.Font("Ubuntu", 1, 14)); // NOI18N
-        jButton1.setForeground(new java.awt.Color(221, 11, 14));
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/sair_pequeno.png"))); // NOI18N
         jButton1.setText("Sair");
 
+        jButton2.setBackground(new java.awt.Color(73, 210, 52));
         jButton2.setFont(new java.awt.Font("Ubuntu", 1, 14)); // NOI18N
-        jButton2.setForeground(new java.awt.Color(57, 196, 1));
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagens/botoes/entrar.png"))); // NOI18N
         jButton2.setText("Entrar");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
